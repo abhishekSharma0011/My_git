@@ -34,3 +34,10 @@ do
 	echo "Count: $count"
 	((count++))
 done
+
+# We will be working with the command line arguments in bash
+
+echo "Hello" $1
+echo "Hello" $2
+echo "All " $@
+

@@ -1,0 +1,20 @@
+Many people use Bash and Shell interchangably. But there is a subtle difference between the two. 
+BASH: Bourne again Shell is the scripting language
+SHELL: is the program that provides the command line interface
+
+Once can know which scripting language is their shell using by typing the following command(s)
+1. echo $SHELL or 
+2. ps
+
+General syntax of a command: <command>[options](arguments)
+
+Example of commands one can use to explore : 
+1. date
+2. pwd (present working directory)
+3. ls
+4. echo "Sai Ram"
+5. man <command> 
+
+
+How to create and execute bash scripts
+Adding the shebang : #!/bin/bash
