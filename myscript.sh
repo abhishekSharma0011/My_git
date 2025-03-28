@@ -9,14 +9,11 @@ name="Fractal Analysis"
 echo "I am currently doing my research in $name!"
 
 # User input
-echo "Enter the name of a fractal figure: "
-read user_ans
+read -p "Enter the name of a fractal set: " user_ans
 echo "Did you say $user_ans"
 
 # Conditional statements in bash
-echo "Enter a number :"
-read num
-
+read -p "Enter a number: " num
 if [ $num -gt 10 ];then
 	echo "The number is greater than 10"
 else
